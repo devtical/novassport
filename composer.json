@@ -1,0 +1,34 @@
+{
+    "name": "kristories/novassport",
+    "description": "A Laravel Nova tool to manage API Authentication (Passport).",
+    "keywords": [
+        "laravel",
+        "nova",
+        "passport",
+        "oauth",
+        "oauth2",
+        "authentication",
+        "auth"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kristories\\Novassport\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kristories\\Novassport\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
