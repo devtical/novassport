@@ -10,6 +10,14 @@
 <ul class="list-reset mb-8">
     <li class="leading-wide mb-4 text-sm">
         <router-link :to="{
+            name: 'novassport.authorized_apps'
+        }" class="text-white ml-8 no-underline dim">
+            @lang('novassport::resources.authorized_apps')
+        </router-link>
+    </li>
+
+    <li class="leading-wide mb-4 text-sm">
+        <router-link :to="{
             name: 'index',
             params: {
                 resourceName: 'oauth-my-apps'

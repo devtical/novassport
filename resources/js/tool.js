@@ -1,9 +1,9 @@
 Nova.booting((Vue, router) => {
     router.addRoutes([
         {
-            name: 'novassport',
-            path: '/novassport',
-            component: require('./components/Tool'),
+            name: 'novassport.authorized_apps',
+            path: '/novassport/authorized-apps',
+            component: require('./components/AuthorizedApps'),
         },
     ])
 })
