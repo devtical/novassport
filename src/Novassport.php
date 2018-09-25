@@ -2,6 +2,7 @@
 
 namespace Kristories\Novassport;
 
+use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
 
 class Novassport extends Tool
@@ -13,7 +14,9 @@ class Novassport extends Tool
      */
     public function boot()
     {
-
+        Nova::resources([
+            \Kristories\Novassport\Resources\OauthMyApps::class,
+        ]);
     }
 
     /**
