@@ -1,5 +1,6 @@
 <?php
 
 return [
-    'my_apps' => 'My Apps',
+    'authorized_apps'        => 'Authorized Apps',
+    'my_apps'                => 'My Apps',
 ];
