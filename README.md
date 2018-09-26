@@ -21,7 +21,7 @@ composer require kristories/novassport
 
 ## Usage
 
-Add the card to your `NovaServiceProvider.php`
+Add `Novassport` to your `NovaServiceProvider.php`
 
 
 ```php
