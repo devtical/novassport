@@ -10,6 +10,12 @@ A Laravel Nova tool to manage API Authentication (Passport).
 - [x] Authorized Apps
 - [ ] Personal Access Tokens
 
+## Requirements
+
+- Laravel
+- Passport
+
+
 ## Installation 
 
 You can install the Nova tool in to a [Laravel](http://laravel.com) app that uses [Nova](http://nova.laravel.com) via composer :
