@@ -16,7 +16,14 @@ A Laravel Nova tool to manage API Authentication (Passport).
 - Passport
 
 
-## Installation 
+## Installation
+
+Depending on your version of Laravel, you should install a different version of the package.
+
+| Laravel Version | Package Version |
+|:---------------:|:---------------:|
+|       6.0       |      soon..     |
+|       5.8       |      1.0        |
 
 You can install the Nova tool in to a [Laravel](http://laravel.com) app that uses [Nova](http://nova.laravel.com) via composer :
 
