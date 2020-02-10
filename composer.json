@@ -1,5 +1,5 @@
 {
-    "name": "kristories/novassport",
+    "name": "ohysdev/novassport",
     "description": "A Laravel Nova tool to manage API Authentication (Passport).",
     "keywords": [
         "laravel",
@@ -13,8 +13,8 @@
     "license": "MIT",
     "require": {
         "php": ">=7.1.0",
-        "laravel/nova": "^1.0",
-        "laravel/framework": "^5.8"
+        "laravel/nova": "^2.0",
+        "laravel/framework": "^6.0"
     },
     "repositories": [
         {
