@@ -22,7 +22,7 @@ Depending on your version of Laravel, you should install a different version of 
 
 | Laravel Version | Package Version |
 |:---------------:|:---------------:|
-|       6.0       |      soon..     |
+|       6.0       |      2.0        |
 |       5.8       |      1.0        |
 
 You can install the Nova tool in to a [Laravel](http://laravel.com) app that uses [Nova](http://nova.laravel.com) via composer :
