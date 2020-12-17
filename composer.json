@@ -12,9 +12,9 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.1.0",
-        "laravel/nova": "^2.0",
-        "laravel/framework": "^6.0"
+        "php": "^8.0|^7.3",
+        "laravel/nova": "^3.0",
+        "laravel/passport": "^10.1"
     },
     "repositories": [
         {
