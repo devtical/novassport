@@ -1,6 +1,6 @@
 <?php
 
-namespace Kristories\Novassport\Models\Scopes;
+namespace Devtical\Novassport\Models\Scopes;
 
 use Auth;
 use Illuminate\Database\Eloquent\Builder;

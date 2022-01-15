@@ -1,8 +1,8 @@
 <?php
 
-namespace Kristories\Novassport\Http\Middleware;
+namespace Devtical\Novassport\Http\Middleware;
 
-use Kristories\Novassport\Novassport;
+use Devtical\Novassport\Novassport;
 
 class Authorize
 {
