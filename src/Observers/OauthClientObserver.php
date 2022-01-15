@@ -2,8 +2,9 @@
 
 namespace Kristories\Novassport\Observers;
 
-use Auth, Str;
+use Auth;
 use Kristories\Novassport\Models\OauthClient;
+use Str;
 
 class OauthClientObserver
 {
@@ -15,10 +16,10 @@ class OauthClientObserver
      */
     public function creating(OauthClient $client)
     {
-        $client->user_id                = Auth::id();
-        $client->secret                 = Str::random(40);
-        $client->revoked                = false;
+        $client->user_id = Auth::id();
+        $client->secret = Str::random(40);
+        $client->revoked = false;
         $client->personal_access_client = false;
-        $client->password_client        = false;
+        $client->password_client = false;
     }
 }
