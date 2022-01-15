@@ -1,6 +1,6 @@
 <?php
 
-namespace Kristories\Novassport\Resources;
+namespace Devtical\Novassport\Resources;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
@@ -14,7 +14,7 @@ class OauthMyApps extends Resource
      *
      * @var string
      */
-    public static $model = 'Kristories\Novassport\Models\OauthClient';
+    public static $model = 'Devtical\Novassport\Models\OauthClient';
 
     /**
      * Indicates if the resource should be displayed in the sidebar.

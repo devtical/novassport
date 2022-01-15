@@ -1,9 +1,9 @@
 <?php
 
-namespace Kristories\Novassport\Observers;
+namespace Devtical\Novassport\Observers;
 
 use Auth;
-use Kristories\Novassport\Models\OauthClient;
+use Devtical\Novassport\Models\OauthClient;
 use Str;
 
 class OauthClientObserver
@@ -11,7 +11,7 @@ class OauthClientObserver
     /**
      * Handle the oauth client "creating" event.
      *
-     * @param  \App\Kristories\Novassport\Models\OauthClient  $client
+     * @param  \App\Devtical\Novassport\Models\OauthClient  $client
      * @return void
      */
     public function creating(OauthClient $client)

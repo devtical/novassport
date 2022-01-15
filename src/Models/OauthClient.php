@@ -1,9 +1,9 @@
 <?php
 
-namespace Kristories\Novassport\Models;
+namespace Devtical\Novassport\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Kristories\Novassport\Models\Scopes\MyAppsScope;
+use Devtical\Novassport\Models\Scopes\MyAppsScope;
 
 class OauthClient extends Model
 {

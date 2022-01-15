@@ -1,14 +1,14 @@
 <?php
 
-namespace Kristories\Novassport;
+namespace Devtical\Novassport;
 
 use Gate;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Kristories\Novassport\Http\Middleware\Authorize;
-use Kristories\Novassport\Models\OauthClient;
-use Kristories\Novassport\Observers\OauthClientObserver;
-use Kristories\Novassport\Policies\MyAppsPolicy;
+use Devtical\Novassport\Http\Middleware\Authorize;
+use Devtical\Novassport\Models\OauthClient;
+use Devtical\Novassport\Observers\OauthClientObserver;
+use Devtical\Novassport\Policies\MyAppsPolicy;
 use Laravel\Nova\Events\ServingNova;
 use Laravel\Nova\Nova;
 

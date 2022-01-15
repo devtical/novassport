@@ -1,6 +1,6 @@
 <?php
 
-namespace Kristories\Novassport;
+namespace Devtical\Novassport;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
@@ -17,7 +17,7 @@ class Novassport extends Tool
         Nova::script('novassport', __DIR__.'/../dist/js/tool.js');
 
         Nova::resources([
-            \Kristories\Novassport\Resources\OauthMyApps::class,
+            \Devtical\Novassport\Resources\OauthMyApps::class,
         ]);
     }
 

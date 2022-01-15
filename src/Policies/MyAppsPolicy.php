@@ -1,6 +1,6 @@
 <?php
 
-namespace Kristories\Novassport\Policies;
+namespace Devtical\Novassport\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
 

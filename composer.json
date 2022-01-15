@@ -24,13 +24,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Kristories\\Novassport\\": "src/"
+            "Devtical\\Novassport\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Kristories\\Novassport\\ToolServiceProvider"
+                "Devtical\\Novassport\\ToolServiceProvider"
             ]
         }
     },
