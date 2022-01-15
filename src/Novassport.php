@@ -14,7 +14,7 @@ class Novassport extends Tool
      */
     public function boot()
     {
-        Nova::script('novassport', __DIR__ . '/../dist/js/tool.js');
+        Nova::script('novassport', __DIR__.'/../dist/js/tool.js');
 
         Nova::resources([
             \Kristories\Novassport\Resources\OauthMyApps::class,

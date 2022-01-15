@@ -3,14 +3,14 @@
 namespace Kristories\Novassport;
 
 use Gate;
-use Laravel\Nova\Nova;
-use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Kristories\Novassport\Models\OauthClient;
-use Kristories\Novassport\Policies\MyAppsPolicy;
 use Kristories\Novassport\Http\Middleware\Authorize;
+use Kristories\Novassport\Models\OauthClient;
 use Kristories\Novassport\Observers\OauthClientObserver;
+use Kristories\Novassport\Policies\MyAppsPolicy;
+use Laravel\Nova\Events\ServingNova;
+use Laravel\Nova\Nova;
 
 class ToolServiceProvider extends ServiceProvider
 {
@@ -21,11 +21,11 @@ class ToolServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'novassport');
-        $this->loadTranslationsFrom(__DIR__ . '/../resources/lang', 'novassport');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'novassport');
+        $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'novassport');
 
         $this->publishes([
-            __DIR__ . '/../resources/lang' => resource_path('lang/vendor/novassport'),
+            __DIR__.'/../resources/lang' => resource_path('lang/vendor/novassport'),
         ], 'novassport');
 
         $this->app->booted(function () {
@@ -54,7 +54,7 @@ class ToolServiceProvider extends ServiceProvider
 
         Route::middleware(['nova', Authorize::class])
             ->prefix('nova-vendor/novassport')
-            ->group(__DIR__ . '/../routes/api.php');
+            ->group(__DIR__.'/../routes/api.php');
     }
 
     /**
